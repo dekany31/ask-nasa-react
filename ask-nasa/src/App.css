@@ -1,0 +1,49 @@
+.App {
+  background-color: #01263a;
+  color: aliceblue;
+  text-align: center;
+}
+
+button,
+input {
+  width: 10vw;
+  font-size: large;
+  margin: 15px;
+  padding: 5px;
+  border-radius: 10px;
+  background: #2271b1;
+  color: aliceblue;
+}
+
+.modalImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+}
+
+.modalImage img {
+  flex: 2;
+  /* Az első elem két rész szélességű */
+  margin: 5em;
+}
+
+
+.explanationContainer {
+  text-align: justify;
+  padding: 0 3em 1em 3em;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gallery img,
+iframe {
+  max-width: 30%;
+}
